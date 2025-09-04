@@ -6,6 +6,6 @@ import 'package:flutter_code/week04/input_demo.dart';
 
 void main(){
   runApp(MaterialApp(home:
-   InputDemo()
+   InputDemo(),debugShowCheckedModeBanner: false,
   ));
 }
