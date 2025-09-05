@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_code/week04/calculator.dart';
 // import 'package:flutter_code/week01/basic.dart';
 // import 'package:flutter_code/week04/counter.dart';
 // import 'package:flutter_code/week04/input_demo.dart';
-import 'package:flutter_code/week04/login_app.dart';
+// import 'package:flutter_code/week04/login_app.dart';
 //  import './week01/basic.dart'; in short
 
 // void main(){
@@ -13,6 +14,6 @@ import 'package:flutter_code/week04/login_app.dart';
 
 void main(){
   runApp(MaterialApp(home:
-  LoginApp(),debugShowCheckedModeBanner: false,
+  Calculator(),debugShowCheckedModeBanner: false,
   ));
 }
