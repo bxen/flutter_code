@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_code/week05/multi_child_demo.dart';
+import 'package:flutter_code/week05/design1_demo.dart';
+// import 'package:flutter_code/week05/multi_child_demo.dart';
 // import 'package:flutter_code/week04/calculator.dart';
 // import 'package:flutter_code/week05/single_child_demo.dart';
 // import 'package:flutter_code/week01/basic.dart';
@@ -21,5 +22,5 @@ import 'package:flutter_code/week05/multi_child_demo.dart';
 // }
 
 void main(){
-  runApp(MaterialApp(home:MultiChildDemo()));
+  runApp(MaterialApp(home:Design1Demo()));
 }
