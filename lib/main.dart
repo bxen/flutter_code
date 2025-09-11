@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_code/week04/calculator.dart';
+// import 'package:flutter_code/week04/calculator.dart';
+import 'package:flutter_code/week05/single_child_demo.dart';
 // import 'package:flutter_code/week01/basic.dart';
 // import 'package:flutter_code/week04/counter.dart';
 // import 'package:flutter_code/week04/input_demo.dart';
@@ -12,8 +13,12 @@ import 'package:flutter_code/week04/calculator.dart';
 //   ));
 // }
 
+// void main(){
+//   runApp(MaterialApp(home:
+//   Calculator(),debugShowCheckedModeBanner: false,
+//   ));
+// }
+
 void main(){
-  runApp(MaterialApp(home:
-  Calculator(),debugShowCheckedModeBanner: false,
-  ));
+  runApp(MaterialApp(home:SingleChildDemo()));
 }
