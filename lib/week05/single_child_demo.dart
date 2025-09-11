@@ -9,15 +9,12 @@ class SingleChildDemo extends StatelessWidget {
       // appBar: AppBar(title: Text('Myapp'),), 
 
       body: SafeArea(
-        child: Container(
-          margin: EdgeInsets.all(16),
-          padding: EdgeInsets.all(16),
-          color: Colors.amber,
-          width: 150,
-          height: 100,
-          alignment: Alignment.center,
-          child: Text('Single child'),
-        ),
+        child: Align(
+          //Align is (x,y) -1<=x<=1,-1<=y<=1 and (0,0) is at ter parents center
+          alignment:Alignment(0, 0),
+          child:Text('Single child'),
+
+        )
       ),
     );
   }
