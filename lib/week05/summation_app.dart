@@ -31,9 +31,7 @@ class _SummationAppState extends State<SummationApp> {
     setState(() {
       tcFirst.clear();
       tcSecond.clear();
-     setState(() {
        result='';
-     });;
     });
   }
 
