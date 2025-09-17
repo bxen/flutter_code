@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_code/week05/guess_game.dart';
+import 'package:flutter_code/week05/design_app.dart';
+// import 'package:flutter_code/week05/guess_game.dart';
 // import 'package:flutter_code/week05/app_interface.dart';
 // import 'package:flutter_code/week05/summation_app.dart';
 // import 'package:flutter_code/week05/random_demo.dart';
@@ -19,5 +20,5 @@ import 'package:flutter_code/week05/guess_game.dart';
 // }
 
 void main(){
-  runApp(MaterialApp(home:GuessGame()));
+  runApp(MaterialApp(home:DesignApp()));
 }
