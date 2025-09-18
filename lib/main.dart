@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_code/week06/login_dynamic.dart';
+import 'package:flutter_code/week06/timer_demo.dart';
+
 
 // import 'package:flutter_code/week06/button_demo.dart';
 
@@ -18,6 +19,6 @@ import 'package:flutter_code/week06/login_dynamic.dart';
 // }
 
 void main(){
-  runApp(MaterialApp(home:LoginDynamic(),
+  runApp(MaterialApp(home:TimerDemo(),
   debugShowCheckedModeBanner: false,));
 }
