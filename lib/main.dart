@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_code/week06/baking_app.dart';
 // import 'package:flutter_code/week06/button_demo.dart';
-import 'package:flutter_code/week06/image_damo.dart';
+
 // import 'package:flutter_code/week05/design_app.dart';
 // import 'package:flutter_code/week05/guess_game.dart';
 // import 'package:flutter_code/week05/app_interface.dart';
@@ -22,6 +23,6 @@ import 'package:flutter_code/week06/image_damo.dart';
 // }
 
 void main(){
-  runApp(MaterialApp(home:ImageDamo(),
+  runApp(MaterialApp(home:BakingApp(),
   debugShowCheckedModeBanner: false,));
 }
