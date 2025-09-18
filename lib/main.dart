@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_code/week04/calculator.dart';
-// import 'package:flutter_code/week01/basic.dart';
-// import 'package:flutter_code/week04/counter.dart';
-// import 'package:flutter_code/week04/input_demo.dart';
-// import 'package:flutter_code/week04/login_app.dart';
-//  import './week01/basic.dart'; in short
+import 'package:flutter_code/week05/design_app.dart';
+// import 'package:flutter_code/week05/guess_game.dart';
+// import 'package:flutter_code/week05/app_interface.dart';
+// import 'package:flutter_code/week05/summation_app.dart';
+// import 'package:flutter_code/week05/random_demo.dart';
+// import 'package:flutter_code/week05/design1_demo.dart';
+
 
 // void main(){
 //   runApp(MaterialApp(home:
@@ -12,8 +13,12 @@ import 'package:flutter_code/week04/calculator.dart';
 //   ));
 // }
 
+// void main(){
+//   runApp(MaterialApp(home:
+//   Calculator(),debugShowCheckedModeBanner: false,
+//   ));
+// }
+
 void main(){
-  runApp(MaterialApp(home:
-  Calculator(),debugShowCheckedModeBanner: false,
-  ));
+  runApp(MaterialApp(home:DesignApp()));
 }
