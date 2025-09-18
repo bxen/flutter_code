@@ -14,7 +14,9 @@ class _SummationAppState extends State<SummationApp> {
 
   void calculate() {
     setState(() {
+      // ignore: unused_local_variable
       String first = tcFirst.text.trim();
+      // ignore: unused_local_variable
       String second = tcSecond.text.trim();
       if (tcFirst.text == '' || tcSecond.text == '') {
         result = 'Incorrect input';
