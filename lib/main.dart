@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_code/week06/assignment2.dart';
+import 'package:flutter_code/week06/assignment01.dart';
+// import 'package:flutter_code/week06/assignment2.dart';
 // import 'package:flutter_code/week06/exercise10.dart';
 // import 'package:flutter_code/week06/salad_demo.dart';
 // import 'package:flutter_code/week06/signin_page.dart';
@@ -23,6 +24,6 @@ import 'package:flutter_code/week06/assignment2.dart';
 // }
 
 void main(){
-  runApp(MaterialApp(home:Assignment2(),
+  runApp(MaterialApp(home:Assignment01(),
   debugShowCheckedModeBanner: false,));
 }
