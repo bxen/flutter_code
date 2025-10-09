@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_code/week7/slider_demo.dart';
+import 'package:flutter_code/week7/radio_demo.dart';
 
 
 // import 'package:flutter_code/week06/button_demo.dart';
@@ -19,6 +19,6 @@ import 'package:flutter_code/week7/slider_demo.dart';
 // }
 
 void main(){
-  runApp(MaterialApp(home:SliderDemo(),
+  runApp(MaterialApp(home:RadioDemo(),
   debugShowCheckedModeBanner: false,));
 }
