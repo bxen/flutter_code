@@ -10,6 +10,7 @@ class DatepickerDemo extends StatefulWidget {
 class _DatepickerDemoState extends State<DatepickerDemo> {
   String date = '';
   String time = '';
+  String dialog ='';
 
   void showCalendar() async {
     DateTime? dt = await showDatePicker(
@@ -34,15 +35,48 @@ class _DatepickerDemoState extends State<DatepickerDemo> {
       context: context,
       initialTime: TimeOfDay.now(),
     );
-    if (td != null){
+    if (td != null) {
       setState(() {
-        time ='${td.hour}:${td.minute}';
+        time = '${td.hour}:${td.minute}';
       });
-    }else{
+    } else {
       setState(() {
         time = 'Please select a time';
       });
     }
+  }
+
+  // add show Alert
+  void showAlert() async {
+    await showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: Text('Warning'),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Image.network('https://www.iconarchive.com/download/i7083/hopstarter/button/Button-Close.48.png'),
+              Text('Are you sure to delete'),
+            ],
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: Text('Cancel', style: TextStyle(color: Colors.red)),
+            ),
+            TextButton(onPressed: () {
+               Navigator.pop(context);
+              setState(() {
+                dialog = 'You choose ok';
+              });
+            }, child: Text('OK')),
+          ],
+        );
+      },
+    );
   }
 
   @override
@@ -64,6 +98,11 @@ class _DatepickerDemoState extends State<DatepickerDemo> {
               icon: Icon(Icons.timelapse),
               label: Text('Select'),
             ),
+            SizedBox(height: 30),
+            FilledButton(onPressed: showAlert, 
+          
+            child: Text('Delete')),
+            Text(dialog),
           ],
         ),
       ),
