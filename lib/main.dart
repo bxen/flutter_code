@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_code/week7/cb_sw_demo.dart';
+import 'package:flutter_code/week7/slider_demo.dart';
+
 
 // import 'package:flutter_code/week06/button_demo.dart';
 
@@ -18,6 +19,6 @@ import 'package:flutter_code/week7/cb_sw_demo.dart';
 // }
 
 void main(){
-  runApp(MaterialApp(home:CbSwDemo(),
+  runApp(MaterialApp(home:SliderDemo(),
   debugShowCheckedModeBanner: false,));
 }
